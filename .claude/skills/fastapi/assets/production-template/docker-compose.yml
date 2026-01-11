@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:80"
+    environment:
+      - APP_NAME=FastAPI Production App
+      - DEBUG=False
+      - DATABASE_URL=sqlite:///./app.db
+    volumes:
+      - ./app:/code/app
+    restart: unless-stopped
