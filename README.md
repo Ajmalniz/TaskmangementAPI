@@ -5,6 +5,8 @@
 **Project**: Task Management API with Custom Claude Skills
 **Submission Date**: January 11, 2026
 
+> **Assignment Overview**: This project demonstrates AI-native development by creating 5 reusable Claude Code skills (including a comprehensive FastAPI development skill) and building a production-ready Task Management API with 98% test coverage. The assignment showcases the complete journey from identifying repetitive workflows to automating them with AI, while mastering modern Python web development with FastAPI, pytest, and SQLModel.
+
 ---
 
 ## Project Overview
